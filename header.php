@@ -10,3 +10,25 @@
 </head>
 
 <body>
+
+<nav class="row navbar bg-light fixed-top">
+		<div class="col-md-4">
+			<ul class="nav navbar-nav text-center">
+				<li><a href="index.php">Adiciona Produto</a></li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+
+			<div class="img-centralizado">
+				<a href="index.html">
+					<img src="imagens/logo.png" style="max-width: 50px;">
+				</a>
+			</div>
+
+		</div>
+		<div class="col-md-4">
+			<ul class="nav navbar-nav text-center">
+				<li><a href="#">Link não funcional</a></li>
+			</ul>
+		</div>
+</nav>
