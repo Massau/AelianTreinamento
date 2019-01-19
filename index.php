@@ -53,7 +53,7 @@
         
         <br>
 		
-		<form action="" method="" class="formQuiz">
+		<form action="responde-quiz.php" class="formQuiz">
 			<h2 class="text-center"><b class="text-danger">Quiz científico</b><link></h2>
 		
         	<div class="form-row p-3">
