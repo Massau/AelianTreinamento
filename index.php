@@ -1,12 +1,6 @@
 <?php include("header.php"); ?>
 
-<div class="parallax div1" data-divisor="2">
-	<div class="img-centralizado pt-3">
-        <a href="index.html">
-            <img src="imagens/logo.png">
-        </a>
-		</div>
-		
+<div class="parallax div1" data-divisor="2">		
     <div class="text">
 		<blockquote class="blockquote text-center">
 			<h4>O Universo não é só mais estranho do que imaginamos, mas <b class="text-danger">mais estranho do que podemos imaginar.</b></h4>
