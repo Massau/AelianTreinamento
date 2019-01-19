@@ -3,7 +3,7 @@
 $nome = $_GET['nome'];
 $idade = $_GET['idade'];
 
-$query = "insert into quiz (nome, idade)";
+$query = "insert into quiz (nome, idade) values ('{$nome}', {$idade})";
 
 ?>
 
