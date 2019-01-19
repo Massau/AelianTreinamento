@@ -131,7 +131,7 @@
 
                 <div class="form-group row">
                     <div class="col-md-2 col-lg-2">
-                        <a class="btn btn-outline-primary" type="submit" href="consulta.html">Gravar respostas</a>
+                        <button class="btn btn-outline-primary" type="button submit">Gravar respostas</button>
                     </div>
                     <div class="col-md-2 col-lg-2">
                         <button class="btn btn-outline-danger" type="reset">Cancelar</button>
