@@ -58,11 +58,11 @@
 		
         	<div class="form-row p-3">
 				<div class="form-group col-md-6 col-lg-6">
-					<label for="nomeUserQuiz">Seu e-mail</label>
-					<input type="mail" class="form-control" id="nomeUserQuiz" placeholder="zepequeno@hotmail.com">
+					<label for="nomeUserQuiz">Seu nome</label>
+					<input type="text" class="form-control" name="nome" id="nomeUserQuiz" placeholder="Valéria">
 						
 					<label for="idadeUserQuiz">Sua idade:</label>
-					<input type="number" placeholder=" 13" class="form-control" id="idadeUserQuiz">
+					<input type="number" class="form-control" name="idade" placeholder=" 13" id="idadeUserQuiz">
 				</div>
 
 				<div class="form-group col-md-6 col-lg-6">
