@@ -1,8 +1,14 @@
 <?php 
     include("header.php"); 
     require_once("conecta.php");
-?>
 
+    $resultado = mysqli_query($conexao, "select * from quiz");
+    while($quiz = mysqli_fetch_assoc($resultado)){
+        echo $quiz['nome'] . "<br>";
+    }
+    
+?>
+<!--
 <div class="row container">
     <div class="col-md-6 col-lg-6">
         <div class="img-centralizado pt-3">
@@ -117,7 +123,7 @@
 
 <nav class="row">
     <div class="col-md-4 col-lg-4">
-        <!--vazio-->
+        vazio
     </div>
 
     <div class="col-md-4 col-lg-4">
@@ -145,8 +151,8 @@
     </div>
     
     <div class="col-md-4 col-lg-4">
-        <!--vazio-->
+        vazio
     </div>
-</nav>
+</nav> -->
 
 <?php include("footer.php"); ?>
