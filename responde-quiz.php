@@ -1,4 +1,7 @@
-<?php include("header.php");
+<?php 
+    include("header.php"); 
+    require_once("conecta.php");
+
 function insereResposta($conexao, $nome, $idade){
     $query = "insert into quiz (nome, idade) values ('{$nome}', {$idade})";
     return mysqli_query($conexao, $query);
@@ -6,7 +9,6 @@ function insereResposta($conexao, $nome, $idade){
 
 $nome = $_GET['nome'];
 $idade = $_GET['idade'];
-$conexao = mysqli_connect('localhost', 'root', '', 'crud');
 
 if(insereResposta($conexao, $nome, $idade)){ ?>
     <p class="text-success text-center envolve_conteudo">Questionário respondido com sucesso, <?= $nome?>, de <?= $idade ?> anos</p>

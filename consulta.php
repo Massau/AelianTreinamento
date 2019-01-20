@@ -1,4 +1,7 @@
-<?php include("header.php"); ?>
+<?php 
+    include("header.php"); 
+    require_once("conecta.php");
+?>
 
 <div class="row container">
     <div class="col-md-6 col-lg-6">
