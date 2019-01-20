@@ -9,9 +9,11 @@ $idade = $_GET['idade'];
 $conexao = mysqli_connect('localhost', 'root', '', 'crud');
 
 if(insereResposta($conexao, $nome, $idade)){ ?>
-    <p class="text-success text-center">Questionário respondido com sucesso, <?= $nome?>, de <?= $idade ?> anos</p>
-<?php } else { ?>
-    <p class="text-danger text-center">Erro no envio das respostas <br> Verifique se todos os campos foram preenchidos corretamente</p>
+    <p class="text-success text-center texto-alinha-vertical">Questionário respondido com sucesso, <?= $nome?>, de <?= $idade ?> anos</p>
+<?php } else { 
+    $msgErro = mysqli_error($conexao);
+?>
+    <p class="text-danger text-center texto-alinha-vertical">Erro no envio das respostas: <?= $msgErro ?></p>
 <?php
 }
 
