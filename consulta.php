@@ -10,6 +10,8 @@
         }
         return $respostas;
     }
+
+    $respostas = listaRespostas($conexao);
     
 ?>
 <!--
