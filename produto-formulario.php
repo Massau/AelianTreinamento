@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("cabecalho.php"); ?>
 
 <div class="parallax div1" data-divisor="2">		
     <div class="text">
