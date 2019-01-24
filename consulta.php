@@ -2,15 +2,6 @@
     include("header.php"); 
     require_once("conecta.php");
 
-    function listaRespostas($conexao) {
-        $respostas = array();
-        $resultado = mysqli_query($conexao, "select * from quiz");
-        while($quiz = mysqli_fetch_assoc($resultado)){
-            array_push($respostas, $resposta);
-        }
-        return $respostas;
-    }
-
 $respostas = listaRespostas($conexao);
 foreach ($respostas as $resposta){
     echo $resposta['nome'] . "<br>";

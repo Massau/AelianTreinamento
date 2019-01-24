@@ -2,11 +2,6 @@
     include("header.php"); 
     require_once("conecta.php");
 
-function insereResposta($conexao, $nome, $idade){
-    $query = "insert into quiz (nome, idade) values ('{$nome}', {$idade})";
-    return mysqli_query($conexao, $query);
-}
-
 $nome = $_GET['nome'];
 $idade = $_GET['idade'];
 
