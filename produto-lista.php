@@ -4,21 +4,22 @@
     require_once("banco-respostas"); ?>
 
     <table>
-    
-    <?php
-    $respostas = listaRespostas($conexao);
-    foreach ($respostas as $resposta){
-    ?>
+
+        <?php
+        $respostas = listaRespostas($conexao);
+        foreach ($respostas as $resposta){
+        ?>
+        
         <tr>
             <td>$resposta['nome']</td>
             <td>$resposta['idade']</td>
         <tr>
 
-<?php
-}
-?>
+        <?php
+        }
+        ?>
 
-<table>
+    <table>
 <!--
 <div class="row container">
     <div class="col-md-6 col-lg-6">
