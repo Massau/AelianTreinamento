@@ -10,7 +10,7 @@
         foreach ($respostas as $resposta){
         ?>
 
-        <tr>
+        <tr class="text-center">
             <td><?= $resposta['nome'] ?></td>
             <td><?= $resposta['idade'] ?></td>
         <tr>
