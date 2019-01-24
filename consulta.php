@@ -6,6 +6,7 @@
         $respostas = array();
         $resultado = mysqli_query($conexao, "select * from quiz");
         while($quiz = mysqli_fetch_assoc($resultado)){
+            array_push($respostas, $resposta);
         }
         return $respostas;
     }
