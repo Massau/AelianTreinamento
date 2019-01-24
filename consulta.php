@@ -13,8 +13,9 @@
 
 $respostas = listaRespostas($conexao);
 foreach ($respostas as $resposta){
-    
+    echo $resposta['nome'] . "<br>";
 }
+
 ?>
 <!--
 <div class="row container">
