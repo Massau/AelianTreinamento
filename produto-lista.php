@@ -1,7 +1,7 @@
 <?php 
     include("header.php"); 
     require_once("conecta.php");
-    require_once("banco-respostas"); ?>
+    require_once("banco-respostas.php"); ?>
 
     <table class="table table-dark">
 
