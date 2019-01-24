@@ -3,13 +3,13 @@
     require_once("conecta.php");
     require_once("banco-respostas"); ?>
 
-    <table>
+    <table class="table table-dark">
 
         <?php
         $respostas = listaRespostas($conexao);
         foreach ($respostas as $resposta){
         ?>
-        
+
         <tr>
             <td>$resposta['nome']</td>
             <td>$resposta['idade']</td>
