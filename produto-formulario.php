@@ -139,4 +139,4 @@
 	</div>
 
 
-<?php include("footer.php"); ?>
+<?php include("rodape.php"); ?>

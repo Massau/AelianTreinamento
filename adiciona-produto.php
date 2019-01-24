@@ -18,4 +18,4 @@ if(insereResposta($conexao, $nome, $idade)){ ?>
 mysqli_close($conexao);
 ?>
 
-<?php include("footer.php"); ?>
+<?php include("rodape.php"); ?>
