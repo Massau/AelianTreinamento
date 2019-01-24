@@ -13,6 +13,9 @@
         <tr class="text-center">
             <td><?= $resposta['nome'] ?></td>
             <td><?= $resposta['idade'] ?></td>
+            <td>
+                <a href="remove-produto.php?id=<?= $produto['id'] ?>" class="text-danger">Remover</a>
+            </td>
         <tr>
 
         <?php
