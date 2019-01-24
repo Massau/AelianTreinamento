@@ -11,8 +11,8 @@
         ?>
 
         <tr>
-            <td>$resposta['nome']</td>
-            <td>$resposta['idade']</td>
+            <td><?= $resposta['nome'] ?></td>
+            <td><?= $resposta['idade'] ?></td>
         <tr>
 
         <?php
