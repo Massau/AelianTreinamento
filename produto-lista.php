@@ -1,14 +1,24 @@
 <?php 
     include("header.php"); 
     require_once("conecta.php");
-    require_once("banco-respostas");
+    require_once("banco-respostas"); ?>
 
-$respostas = listaRespostas($conexao);
-foreach ($respostas as $resposta){
-    echo $resposta['nome'] . "<br>";
+    <table>
+    
+    <?php
+    $respostas = listaRespostas($conexao);
+    foreach ($respostas as $resposta){
+    ?>
+        <tr>
+            <td>$resposta['nome']</td>
+            <td>$resposta['idade']</td>
+        <tr>
+
+<?php
 }
-
 ?>
+
+<table>
 <!--
 <div class="row container">
     <div class="col-md-6 col-lg-6">
