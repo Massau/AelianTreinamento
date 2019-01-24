@@ -11,8 +11,10 @@
         return $respostas;
     }
 
-    $respostas = listaRespostas($conexao);
+$respostas = listaRespostas($conexao);
+foreach ($respostas as $resposta){
     
+}
 ?>
 <!--
 <div class="row container">
