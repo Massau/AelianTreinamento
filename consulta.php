@@ -3,10 +3,11 @@
     require_once("conecta.php");
 
     function listaRespostas($conexao) {
+        $respostas = array();
         $resultado = mysqli_query($conexao, "select * from quiz");
         while($quiz = mysqli_fetch_assoc($resultado)){
-            echo $quiz['nome'] . "<br>";
         }
+        return $respostas;
     }
     
 ?>
