@@ -3,7 +3,7 @@
     require_once("conecta.php");
     require_once("banco-respostas.php"); ?>
 
-    <table class="table table-dark">
+    <table class="table table-striped table-dark">
 
         <?php
         $respostas = listaRespostas($conexao);
