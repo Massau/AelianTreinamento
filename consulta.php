@@ -2,9 +2,11 @@
     include("header.php"); 
     require_once("conecta.php");
 
-    $resultado = mysqli_query($conexao, "select * from quiz");
-    while($quiz = mysqli_fetch_assoc($resultado)){
-        echo $quiz['nome'] . "<br>";
+    function listaRespostas($conexao) {
+        $resultado = mysqli_query($conexao, "select * from quiz");
+        while($quiz = mysqli_fetch_assoc($resultado)){
+            echo $quiz['nome'] . "<br>";
+        }
     }
     
 ?>
