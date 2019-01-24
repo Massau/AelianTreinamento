@@ -1,6 +1,7 @@
 <?php 
     include("header.php"); 
     require_once("conecta.php");
+    require_once("banco-respostas");
 
 $nome = $_GET['nome'];
 $idade = $_GET['idade'];

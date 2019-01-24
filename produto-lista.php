@@ -1,6 +1,7 @@
 <?php 
     include("header.php"); 
     require_once("conecta.php");
+    require_once("banco-respostas");
 
 $respostas = listaRespostas($conexao);
 foreach ($respostas as $resposta){
