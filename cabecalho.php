@@ -14,7 +14,7 @@
 <nav class="row navbar bg-light fixed-top">
 		<div class="col-md-4">
 			<ul class="nav navbar-nav text-center">
-				<li><a href="index.php">Adiciona Produto</a></li>
+				<li><a href="index.php">Adiciona Resposta</a></li>
 			</ul>
 		</div>
 		<div class="col-md-4">
@@ -28,7 +28,7 @@
 		</div>
 		<div class="col-md-4">
 			<ul class="nav navbar-nav text-center">
-				<li><a href="#">Link não funcional</a></li>
+				<li><a href="produto-lista.php">Respostas</a></li>
 			</ul>
 		</div>
 </nav>
