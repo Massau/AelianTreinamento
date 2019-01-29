@@ -3,8 +3,9 @@
     require_once("conecta.php");
     require_once("banco-respostas.php"); ?>
 
-    <table class="table table-striped table-dark">
-
+<div class="container">
+    <table class="table table-hover table-striped table-condensed tasks-table">
+  
         <?php
         $respostas = listaRespostas($conexao);
         foreach ($respostas as $resposta){
@@ -23,6 +24,7 @@
         ?>
 
     <table>
+</div>
 <!--
 <div class="row container">
     <div class="col-md-6 col-lg-6">
