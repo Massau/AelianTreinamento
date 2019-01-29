@@ -6,7 +6,3 @@
     $id = $_GET['id'];
     removeResposta($conexao, $id);
     ?>
-
-    <div class="container mt-1">
-    <p class="text-success text-center envolve_conteudo">Resposta removida com sucesso</p>
-    </div>
