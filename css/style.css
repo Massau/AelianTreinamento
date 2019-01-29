@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body,
+html {
+	height:100%;
+	font-family:sans-serif;
+	line-height:1.5;
+	box-sizing: border-box;
+}
+
+.envolve_conteudo{
+	box-sizing: border-box;
+	margin-top:50%;
+}
+/* Configura os textos */
+.text {
+	color: #fff;
+	font-size: 50%;
+	text-shadow: 2px 2px 0 #000;
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px;
+	line-height: 1.5;
+	width: 30%;
+	bottom: 10%;
+	left: 10%;
+}
+
+/* Configura os elementos "parallax" */
+.parallax{
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 0;
+	position: relative;
+}
+
+/* Configura um background para cada elemento */
+.div1 {
+	background-image: url(../imagens/sistemaSolar.jpg);
+}
+.div2 {
+	background-image: url(../imagens/astronauta.jpg);
+	max-height: 200px;
+}
+
+
+/* Atribui espaçamento adequado aos elementos do layout */
+.estilizaEspacamento {
+	padding: 20px;
+}
+.estilizaEspacamento h2, 
+.estilizaEspacamento p{
+	padding: 20px;
+	margin: 1.3 0;
+}
+
+.img-centralizado{
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.formQuiz{
+	border-radius: 4px;
+	border: 1px solid green;
+	padding: 20px;
+}
+.btn-outline-success{
+	width: 100%!important;
+}
+.btn-outline-danger{
+	width: 100%!important;
+}
+
+/*parallax
+.cam1{
+    margin-top: 100px;
+}
+.cam2{
+    margin-top: 200px;
+}*/
