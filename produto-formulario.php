@@ -47,7 +47,7 @@
         
         <br>
 		
-		<form action="responde-quiz.php" class="formQuiz">
+		<form action="adiciona-produto.php" class="formQuiz">
 			<h2 class="text-center"><b class="text-danger">Quiz científico</b><link></h2>
 		
         	<div class="form-row p-3">
