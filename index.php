@@ -51,25 +51,12 @@
 			<h2 class="text-center"><b class="text-danger">Quiz científico</b><link></h2>
 		
         	<div class="form-row p-3">
-				<div class="form-group col-md-6 col-lg-6">
+				<div class="form-group col-md-12 col-lg-12">
 					<label for="nomeUserQuiz">Seu nome</label>
 					<input type="text" class="form-control" name="nome" id="nomeUserQuiz" placeholder="Valéria">
-						
+					<br>
 					<label for="idadeUserQuiz">Sua idade:</label>
 					<input type="number" class="form-control" name="idade" placeholder=" 13" id="idadeUserQuiz">
-				</div>
-
-				<div class="form-group col-md-6 col-lg-6">
-					<label>Você se considera uma pessoa cética ?</label>
-					
-                    <div class="form-check custom-control custom-checkbox">                    
-						<input class="form-check-input" type="radio" id="inlineRadioS" value="sim">
-						<label class="form-check-label" for="inlineRadioS">Sim</label>
-					</div>
-					<div class="form-check custom-control custom-checkbox">                    
-						<input class="form-check-input" type="radio" id="inlineRadioN" value="nao">
-						<label class="form-check-label" for="inlineRadioN">Não</label>
-					</div>
 				</div>
 			</div>
 				
