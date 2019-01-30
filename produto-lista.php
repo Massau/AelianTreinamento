@@ -4,6 +4,9 @@
     require_once("banco-respostas.php"); ?>
 
 <div class="container pt-5 mt-5">
+
+    <p class="alert-success text-center">Produto apagado com sucesso!</p>
+
     <table class="table table-hover table-striped table-condensed tasks-table pt-3 mt-3">
   
         <?php
