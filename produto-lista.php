@@ -5,7 +5,13 @@
 
 <div class="container pt-5 mt-5">
 
-    <p class="alert-success text-center">Produto apagado com sucesso!</p>
+    <?php
+        if($_GET["removido"] && $_GET["removido"]=="true") { 
+    ?>
+        <p class="alert-success text-center">Resposta apagada com sucesso!</p>
+    <?php
+        }
+    ?>
 
     <table class="table table-hover table-striped table-condensed tasks-table pt-3 mt-3">
   
