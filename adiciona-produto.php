@@ -3,8 +3,8 @@
     require_once("conecta.php");
     require_once("banco-respostas.php");
 
-$nome = $_GET['nome'];
-$idade = $_GET['idade'];
+$nome = $_POST['nome'];
+$idade = $_POST['idade'];
 
 if(insereResposta($conexao, $nome, $idade)){ ?>
     <p class="text-success text-center envolve_conteudo">Questionário respondido com sucesso, <?= $nome?>, de <?= $idade ?> anos</p>
