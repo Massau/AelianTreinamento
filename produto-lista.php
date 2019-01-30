@@ -24,7 +24,9 @@
             <td><?= $resposta['nome'] ?></td>
             <td><?= $resposta['idade'] ?></td>
             <td>
-                <a href="remove-resposta.php?id=<?= $resposta['id'] ?>" class="text-danger">Remover</a>
+                <form action="remove-resposta.php?id=<?= $resposta['id'] ?>" method="post">
+                    <button class="btn btn-danger">Remover</button>
+                </form>
             </td>
         <tr>
 
