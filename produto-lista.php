@@ -3,8 +3,8 @@
     require_once("conecta.php");
     require_once("banco-respostas.php"); ?>
 
-<div class="container">
-    <table class="table table-hover table-striped table-condensed tasks-table">
+<div class="container pt-5 mt-5">
+    <table class="table table-hover table-striped table-condensed tasks-table pt-3 mt-3">
   
         <?php
         $respostas = listaRespostas($conexao);
