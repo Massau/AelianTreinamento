@@ -10,7 +10,7 @@ $idade = $_POST['idade'];
 <div class="container pt-5 mt-5">
     <?php
     if(insereResposta($conexao, $nome, $idade)){ ?>
-        <p class="text-success text-center">Questionário respondido com sucesso, <?= $nome?>, de <?= $idade ?> anos</p>
+        <p class="text-success text-center">Questionário respondido com sucesso por <?= $nome?> de <?= $idade ?> anos</p>
     <?php } else { 
         $msgErro = mysqli_error($conexao);
     ?>
