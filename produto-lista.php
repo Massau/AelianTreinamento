@@ -5,6 +5,8 @@
 
 <div class="container pt-5 mt-5">
 
+    <h3>Respondido por:</h3>
+
     <?php
         if(array_key_exists("removido", $_GET) && $_GET["removido"]=="true") { 
     ?>
@@ -23,6 +25,10 @@
         <tr class="text-center">
             <td><?= $resposta['nome'] ?></td>
             <td><?= $resposta['idade'] ?></td>
+            <td>
+                <form action="altera-resposta.php?id=<?= $resposta['id'] ?>" method="post">
+                    <button class="btn btn-primary">Alterar</button>
+            </td>
             <td>
                 <form action="remove-resposta.php?id=<?= $resposta['id'] ?>" method="post">
                     <button class="btn btn-danger">Remover</button>
