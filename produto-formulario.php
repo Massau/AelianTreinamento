@@ -79,11 +79,15 @@
                     <img class="card-img-top" src="imagens/imgQuiz03.png" alt="Card image cap astrologia">
                     <div class="row text-center">
                         <div class="col-md-6 col-lg-6">
-                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
-                        </div>                     
-                        <div class="col-md-6 col-lg-6">
-							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
-                        </div>                        
+							<label class="btn btn-outline-success">
+								<input type="radio" name="alternativa_id" value="1">Verdadeiro !
+							</label>
+                        </div> 
+						<div class="col-md-6 col-lg-6">
+							<label class="btn btn-outline-danger">                 
+								<input type="radio" name="alternativa_id" value="2">Falso !
+							</label>                     
+						</div>   
                     </div>
 				</div><br>
 				
@@ -91,11 +95,15 @@
 					<img class="card-img-top" src="imagens/imgQuiz04.png" alt="Card image cap astronomia">
 					<div class="row text-center">
 						<div class="col-md-6 col-lg-6">
-                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
-                        </div>                     
-                        <div class="col-md-6 col-lg-6">
-							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
-                        </div>                        
+							<label class="btn btn-outline-success">
+								<input type="radio" name="alternativa_id" value="3">Verdadeiro !
+							</label>
+						</div> 
+						<div class="col-md-6 col-lg-6">
+							<label class="btn btn-outline-danger">                 
+								<input type="radio" name="alternativa_id" value="4">Falso !
+							</label>                     
+						</div>                        
 					</div>
 				</div><br>
 
@@ -103,11 +111,15 @@
                     <img class="card-img-top" src="imagens/imgQuiz02.png" alt="Card image cap homeopatia">
                     <div class="row text-center">
 						<div class="col-md-6 col-lg-6">
-                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
-                        </div>                     
-                        <div class="col-md-6 col-lg-6">
-							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
-                        </div>                           
+							<label class="btn btn-outline-success">
+								<input type="radio" name="alternativa_id" value="5">Verdadeiro !
+							</label>
+                        </div> 
+						<div class="col-md-6 col-lg-6">
+							<label class="btn btn-outline-danger">                 
+								<input type="radio" name="alternativa_id" value="6">Falso !
+							</label>                     
+						</div>                          
                     </div>
                 </div><br>               
 
@@ -115,11 +127,15 @@
                     <img class="card-img-top" src="imagens/imgQuiz01.png" alt="Card image cap html">
                     <div class="row text-center">
 						<div class="col-md-6 col-lg-6">
-                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
-                        </div>                     
-                        <div class="col-md-6 col-lg-6">
-							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
-                        </div>                           
+							<label class="btn btn-outline-success">
+								<input type="radio" name="alternativa_id" value="1">Verdadeiro !
+							</label>
+                        </div> 
+						<div class="col-md-6 col-lg-6">
+							<label class="btn btn-outline-danger">                 
+								<input type="radio" name="alternativa_id" value="2">Falso !
+							</label>                     
+						</div>                          
                     </div>
                 </div><br>               
 
