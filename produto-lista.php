@@ -6,7 +6,7 @@
 <div class="container pt-5 mt-5">
 
     <?php
-        if($_GET["removido"] && $_GET["removido"]=="true") { 
+        if(array_key_exists("removido", $_GET) && $_GET["removido"]=="true") { 
     ?>
         <p class="alert-success text-center">Resposta apagada com sucesso!</p>
     <?php

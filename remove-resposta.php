@@ -5,7 +5,7 @@
 
     $id = $_GET['id'];
     removeResposta($conexao, $id);
-    header("Location: produto-lista.php");
+    header("Location: produto-lista.php?removido=true");
 
     die();
     ?>
