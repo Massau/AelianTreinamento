@@ -20,7 +20,7 @@
 		<div class="col-md-4">
 
 			<div class="img-centralizado">
-				<a href="index.html">
+				<a href="index.php">
 					<img src="imagens/logo.png" style="max-width: 50px;">
 				</a>
 			</div>
