@@ -79,10 +79,10 @@
                     <img class="card-img-top" src="imagens/imgQuiz03.png" alt="Card image cap astrologia">
                     <div class="row text-center">
                         <div class="col-md-6 col-lg-6">
-                            <a href="" class="btn btn-outline-success">Verdadeiro !</a>   
+                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
                         </div>                     
                         <div class="col-md-6 col-lg-6">
-                            <a href="" class="btn btn-outline-danger">Falso !</a>
+							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
                         </div>                        
                     </div>
 				</div><br>
@@ -91,35 +91,35 @@
 					<img class="card-img-top" src="imagens/imgQuiz04.png" alt="Card image cap astronomia">
 					<div class="row text-center">
 						<div class="col-md-6 col-lg-6">
-							<a href="" class="btn btn-outline-success">Verdadeiro !</a>   
-						</div>                     
-						<div class="col-md-6 col-lg-6">
-							<a href="" class="btn btn-outline-danger">Falso !</a>
-						</div>                        
+                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
+                        </div>                     
+                        <div class="col-md-6 col-lg-6">
+							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
+                        </div>                        
 					</div>
 				</div><br>
 
                 <div class="card">
                     <img class="card-img-top" src="imagens/imgQuiz02.png" alt="Card image cap homeopatia">
                     <div class="row text-center">
-                        <div class="col-md-6 col-lg-6">
-                            <a href="#" class="btn btn-outline-success">Verdadeiro !</a>   
+						<div class="col-md-6 col-lg-6">
+                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
                         </div>                     
                         <div class="col-md-6 col-lg-6">
-                            <a href="#" class="btn btn-outline-danger">Falso !</a>
-                        </div>                        
+							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
+                        </div>                           
                     </div>
                 </div><br>               
 
                 <div class="card">
                     <img class="card-img-top" src="imagens/imgQuiz01.png" alt="Card image cap html">
                     <div class="row text-center">
-                        <div class="col-md-6 col-lg-6">
-                            <a href="" class="btn btn-outline-success">Verdadeiro !</a>   
+						<div class="col-md-6 col-lg-6">
+                            <button name="alternativa" class="btn btn-outline-success">Verdadeiro !</button>   
                         </div>                     
                         <div class="col-md-6 col-lg-6">
-                            <a href="" class="btn btn-outline-danger">Falso !</a>
-                        </div>                        
+							<button name="alternativa"class="btn btn-outline-danger">Falso !</button>
+                        </div>                           
                     </div>
                 </div><br>               
 
