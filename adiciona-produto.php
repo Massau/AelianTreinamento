@@ -5,8 +5,9 @@
 
 $nome = $_POST['nome'];
 $idade = $_POST['idade'];
+$alternativa_id = $POST['alternativa_id'];
 
-if(insereResposta($conexao, $nome, $idade)){ ?>
+if(insereResposta($conexao, $nome, $idade, $alternativa_id)){ ?>
     <p class="text-success text-center envolve_conteudo">Questionário respondido com sucesso, <?= $nome?>, de <?= $idade ?> anos</p>
 <?php } else { 
     $msgErro = mysqli_error($conexao);

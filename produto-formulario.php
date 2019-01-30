@@ -1,4 +1,11 @@
-<?php include("cabecalho.php"); ?>
+<?php 
+	include("cabecalho.php"); 
+	require_once("conecta.php");
+	require_once("banco-alternativas.php");
+	
+	$alternativas = listaAlternativas($conexao);
+	?>
+
 
 <div class="parallax div1" data-divisor="2">		
     <div class="text">
@@ -48,8 +55,7 @@
         <br>
 		
 		<form action="adiciona-produto.php" method="post" class="formQuiz">
-			<h2 class="text-center"><b class="text-danger">Quiz científico</b><link></h2>
-		
+			<h2 class="text-center"><b class="text-danger">Quiz científico</b><link></h2>		
         	<div class="form-row p-3">
 				<div class="form-group col-md-6 col-lg-6">
 					<label for="nomeUserQuiz">Seu nome</label>
@@ -80,12 +86,12 @@
                     <div class="row text-center">
                         <div class="col-md-6 col-lg-6">
 							<label class="btn btn-outline-success">
-								<input type="radio" name="alternativa_id" value="1">Verdadeiro !
+								<input type="radio" name="alternativa_id" value="<?= $alternativa['id']?>"><?= $alternativa['nome']?>
 							</label>
                         </div> 
 						<div class="col-md-6 col-lg-6">
 							<label class="btn btn-outline-danger">                 
-								<input type="radio" name="alternativa_id" value="2">Falso !
+								<input type="radio" name="alternativa_id" value="<?= $alternativa['id']?>"><?= $alternativa['nome']?>
 							</label>                     
 						</div>   
                     </div>

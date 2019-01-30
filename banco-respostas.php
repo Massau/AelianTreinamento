@@ -9,8 +9,8 @@ function listaRespostas($conexao) {
     return $respostas;
 }
 
-function insereResposta($conexao, $nome, $idade){
-    $query = "insert into quiz (nome, idade) values ('{$nome}', {$idade})";
+function insereResposta($conexao, $nome, $idade, $alternativa_id) {
+    $query = "insert into quiz (nome, idade, alternativa_id) values ('{$nome}', {$idade}, {$alternativa_id})";
     return mysqli_query($conexao, $query);
 }
 
