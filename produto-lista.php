@@ -8,7 +8,7 @@
     <h3>Respondido por:</h3>
 
     <?php
-        if(array_key_exists("removido", $_GET) && $_GET["removido"]=="true") { 
+        if(array_key_exists("removido", $_GET) && $_GET['removido']=='true') { 
     ?>
         <p class="alert-success text-center">Resposta apagada com sucesso!</p>
     <?php
@@ -25,10 +25,7 @@
         <tr class="text-center">
             <td><?= $resposta['nome'] ?></td>
             <td><?= $resposta['idade'] ?></td>
-            <td>
-                <form action="altera-resposta.php?id=<?= $resposta['id'] ?>" method="post">
-                    <button class="btn btn-primary">Alterar</button>
-            </td>
+            <td><a class="btn btn-primary" href="altera-resposta-formulario.php?id=<?= $resposta['id'] ?>">Alterar</a></td>
             <td>
                 <form action="remove-resposta.php?id=<?= $resposta['id'] ?>" method="post">
                     <button class="btn btn-danger">Remover</button>
