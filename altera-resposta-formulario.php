@@ -12,18 +12,17 @@ $usado = $produto['usado'] ? "checked='checked'" : "";
 ?>
 
 <h1>Alterando produto</h1>
-<form action="altera-produto.php" method="post">
-    <input type="hidden" name="id" value="<?=$produto['id']?>" />
+<form action="altera-resposta.php" method="post">
+    <input type="hidden" name="id" value="<?=$resposta['id']?>" />
     <table class="table">
         <tr>
             <td>Nome</td>
-            <td><input class="form-control" type="text" name="nome" value="<?=$produto['nome']?>" /></td>
+            <td><input class="form-control" type="text" name="nome" value="<?=$resposta['nome']?>" /></td>
         </tr>
         <tr>
             <td>Idade</td>
-            <td><input class="form-control" type="number" name="preco" value="<?=$produto['preco']?>" /></td>
+            <td><input class="form-control" type="number" name="idade" value="<?=$resposta['preco']?>" /></td>
         </tr>
-        <tr>
         <tr>
             <td>Categoria</td>
             <td>
