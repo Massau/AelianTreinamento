@@ -1,5 +1,7 @@
 <?php include("cabecalho.php"); ?>
 
+<!-- Isto é um teste -->
+
 <div class="parallax div1" data-divisor="2">		
     <div class="text">
 		<blockquote class="blockquote text-center">
