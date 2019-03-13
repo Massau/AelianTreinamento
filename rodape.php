@@ -4,11 +4,13 @@
 		<a href="index.html">Joyce Massau</a>
 	</footer>
 
-    <script src="js/scripts.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-
     <script src="js/jquery.js"></script>
+
+	<script src="js/ajax.js"></script>
+    
+	<script src="js/scripts.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     

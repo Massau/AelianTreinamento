@@ -47,7 +47,7 @@
         
         <br>
 		
-		<form action="adiciona-produto.php" method="post" class="formQuiz">
+		<form action="adiciona-produto.php" method="post" class="formQuiz"><!--Apos Sprint, remover ação do formulario redirecionando requisição -->
 			<h2 class="text-center"><b class="text-danger">Quiz científico</b><link></h2>
 		
         	<div class="form-row p-3">

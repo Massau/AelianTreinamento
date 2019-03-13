@@ -1,7 +1,9 @@
 <?php 
-    include("cabecalho.php"); 
-    require_once("conecta.php");
-    require_once("banco-respostas.php"); ?>
+include("cabecalho.php"); 
+require_once("conecta.php");
+require_once("banco-respostas.php");
+require_once("class/resposta.php");
+?>
 
 <div class="container pt-5 mt-5">
 
@@ -23,12 +25,12 @@
         ?>
 
         <tr class="text-center">
-            <td><?= $resposta['nome'] ?></td>
-            <td><?= $resposta['idade'] ?></td>
-            <td><a class="btn btn-primary" href="altera-resposta-formulario.php?id=<?= $resposta['id'] ?>">Alterar</a></td>
+            <td><?= $resposta->nome ?></td>
+            <td><?= $resposta->idade ?></td>
+            <td><a class="btn btn-primary" href="altera-resposta-formulario.php?id=<?=$resposta->id?>">Alterar</a></td><!--Apos Sprint, remover Href-->
             <td>
-                <form action="remove-resposta.php?id=<?= $resposta['id'] ?>" method="post">
-                    <button class="btn btn-danger">Remover</button>
+                <form action="remove-resposta.php?id=$resposta->id" method="post"><!--Apos Sprint, remover essa linha-->
+                    <button class="btn btn-danger btn-remover">Remover</button>
                 </form>
             </td>
         <tr>

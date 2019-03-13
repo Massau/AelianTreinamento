@@ -2,15 +2,18 @@
     include("cabecalho.php"); 
     require_once("conecta.php");
     require_once("banco-respostas.php");
+    require_once("class/resposta.php");
 
-$nome = $_POST['nome'];
-$idade = $_POST['idade'];
-?>
+    $resposta = new Resposta();
+
+    $resposta->nome = $_POST['nome'];
+    $resposta->idade = $_POST['idade'];
+    ?>
 
 <div class="container pt-5 mt-5">
     <?php
-    if(insereResposta($conexao, $nome, $idade)){ ?>
-        <p class="text-success text-center">Questionário respondido com sucesso por <?= $nome?> de <?= $idade ?> anos</p>
+    if(insereResposta($conexao, $resposta)){ ?>
+        <p class="text-success text-center">Questionário respondido com sucesso por <?=$resposta->nome?> de <?=$resposta->idade?> anos</p>
     <?php } else { 
         $msgErro = mysqli_error($conexao);
     ?>

@@ -1,16 +1,17 @@
 <?php 
-    include("cabecalho.php"); 
-    require_once("conecta.php");
-    require_once("banco-respostas.php"); 
+include("cabecalho.php"); 
+require_once("conecta.php");
+require_once("banco-respostas.php");
+require_once("class/resposta.php");
 
-$id = $_POST["id"];
-$nome = $_POST["nome"];
-$idade = $_POST["idade"];
+$resposta->id = $_POST["id"];
+$resposta->nome = $_POST["nome"];
+$resposta->idade = $_POST["idade"];
 ?>
 
 <div class="container pt-5 mt-5">
-    <?php if(alteraResposta($conexao, $id, $nome, $idade)) { ?>
-        <p class="text-success text-center">A resposta de <?= $nome; ?> de <?= $idade; ?> anos foi alterada com sucesso!</p>
+    <?php if(alteraResposta($conexao, $resposta)) { ?>
+        <p class="text-success text-center">A resposta de <?=$resposta->nome?> de <?=$resposta->idade?> anos foi alterada com sucesso!</p>
     <?php } else {
         $msgErro = mysqli_error($conexao);
     ?>
