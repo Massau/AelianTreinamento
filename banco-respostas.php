@@ -26,7 +26,7 @@ function insereResposta($conexao, Resposta $resposta) {
 }
 
 function alteraResposta($conexao, Resposta $resposta) {
-    $query = "update quiz set nome = '{$resposta->$nome}', idade = {$resposta->$idade} where id = '{$resposta->$id}'";
+    $query = "update quiz set nome = '{$resposta->nome}', idade = {$resposta->idade} where id = {$resposta->id}";
     return mysqli_query($conexao, $query);
 }
 

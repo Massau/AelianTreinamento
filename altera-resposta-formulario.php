@@ -6,6 +6,7 @@ require_once("class/resposta.php");
 
 
 $id = $_GET['id'];
+$nome = $_GET['nome'];
 $resposta = buscaResposta($conexao, $id);
 ?>
 
@@ -16,11 +17,11 @@ $resposta = buscaResposta($conexao, $id);
             <table class="table pt-3 mt-3">
                 <tr>
                     <td>Nome</td>
-                    <td><input class="form-control" type="text" name="nome" value="<?=$resposta->nome?>"/></td>
+                    <td><input class="form-control" type="text" name="nome" value="<?=$resposta["nome"]?>"/></td>
                 </tr>
                 <tr>
                     <td>Idade</td>
-                    <td><input class="form-control" type="number" name="idade" value="<?=$resposta->idade?>"/></td>
+                    <td><input class="form-control" type="number" name="idade" value="<?=$resposta["idade"]?>"/></td>
                 </tr>
                 <tr>
                     <td><button class="btn btn-primary" type="submit">Alterar</button></td>

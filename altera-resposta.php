@@ -4,10 +4,13 @@ require_once("conecta.php");
 require_once("banco-respostas.php");
 require_once("class/resposta.php");
 
-$resposta->id = $_POST["id"];
+$resposta = new Resposta();
+$resposta->id = (int)$_POST["id"];
 $resposta->nome = $_POST["nome"];
 $resposta->idade = $_POST["idade"];
+
 ?>
+
 
 <div class="container pt-5 mt-5">
     <?php if(alteraResposta($conexao, $resposta)) { ?>

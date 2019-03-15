@@ -27,11 +27,11 @@ require_once("class/resposta.php");
         <tr class="text-center">
             <td><?= $resposta->nome ?></td>
             <td><?= $resposta->idade ?></td>
-            <td><a class="btn btn-primary" href="altera-resposta-formulario.php?id=<?=$resposta->id?>">Alterar</a></td><!--Apos Sprint, remover Href-->
+            <td><a class="btn btn-primary" href="altera-resposta-formulario.php?id=<?=$resposta->id?>">Alterar</a></td>
             <td>
-                <form action="remove-resposta.php?id=$resposta->id" method="post"><!--Apos Sprint, remover essa linha-->
-                    <button class="btn btn-danger btn-remover">Remover</button>
-                </form>
+                <!--<form action="remove-resposta.php?id=$resposta->id" method="post">-->
+                    <button class="btn btn-danger btn-remover" id="<?=$resposta->id?>">Remover</button>
+                <!--</form>-->
             </td>
         <tr>
 
